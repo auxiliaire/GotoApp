@@ -16,6 +16,14 @@ Although the overall result may depend on other factors as well, usually code wi
 considerably better. This can mean 3-13 times the performance of the code written using function
 calls.
 
+## Verdict
+
+**Never prematurely optimize your code!**
+
+Although GoTo performs better, this is simply not enough reason to start using it for it may
+complicate the code. Instead try to write clean code, and optimize only when you can put your
+finger on a certain point that proved to be a bottleneck in your application.
+
 ## Code
 
 This program is written in Microsoft Visual Basic for .NET framework 6.0. Another version is
