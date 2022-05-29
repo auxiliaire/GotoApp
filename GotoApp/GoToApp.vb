@@ -26,7 +26,7 @@ Module GoToModule
 chk:    If num = 1 Then
             Return b
         End If
-        num = num - 1
+        num -= 1
         c = b
         b = a + b
         a = c
@@ -106,7 +106,7 @@ chk:    If num = 1 Then
         Return calculationResult
     End Function
 
-    Sub Main(args As String())
+    Sub Main()
         Dim fib As Double
         Dim repetitions As UInt16 = 1000
         Dim recurResult, goToResult As CalculationResult
